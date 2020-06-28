@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Dashboard v1 | Gull Admin Template</title>
+    <title>Ardenvent Control Panel</title>
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800,900" rel="stylesheet" />
     <link href="../../dist-assets/css/themes/lite-purple.min.css" rel="stylesheet" />
     <link href="../../dist-assets/css/plugins/perfect-scrollbar.min.css" rel="stylesheet" />
@@ -15,7 +15,7 @@
     <div class="app-admin-wrap layout-sidebar-large">
         <div class="main-header">
             <div class="logo">
-                <img src="../../dist-assets/images/logo.png" alt="">
+                <img src="../../dist-assets/images/arden_logo.png" alt="">
             </div>
             <div class="menu-toggle">
                 <div></div>
@@ -24,48 +24,7 @@
             </div>
             <div class="d-flex align-items-center">
                 <!-- Mega menu -->
-                <div class="dropdown mega-menu d-none d-md-block">
-                    <a href="#" class="btn text-muted dropdown-toggle mr-3" id="dropdownMegaMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mega Menu</a>
-                    <div class="dropdown-menu text-left" aria-labelledby="dropdownMenuButton">
-                        <div class="row m-0">
-                            <div class="col-md-4 p-4 bg-img">
-                                <h2 class="title">Mega Menu <br> Sidebar</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores natus laboriosam fugit, consequatur.
-                                </p>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem odio amet eos dolore suscipit placeat.</p>
-                                <button class="btn btn-lg btn-rounded btn-outline-warning">Learn More</button>
-                            </div>
-                            <div class="col-md-4 p-4">
-                                <p class="text-primary text--cap border-bottom-primary d-inline-block">Features</p>
-                                <div class="menu-icon-grid w-auto p-0">
-                                    <a href="#"><i class="i-Shop-4"></i> Home</a>
-                                    <a href="#"><i class="i-Library"></i> UI Kits</a>
-                                    <a href="#"><i class="i-Drop"></i> Apps</a>
-                                    <a href="#"><i class="i-File-Clipboard-File--Text"></i> Forms</a>
-                                    <a href="#"><i class="i-Checked-User"></i> Sessions</a>
-                                    <a href="#"><i class="i-Ambulance"></i> Support</a>
-                                </div>
-                            </div>
-                            <div class="col-md-4 p-4">
-                                <p class="text-primary text--cap border-bottom-primary d-inline-block">Components</p>
-                                <ul class="links">
-                                    <li><a href="accordion.html">Accordion</a></li>
-                                    <li><a href="alerts.html">Alerts</a></li>
-                                    <li><a href="buttons.html">Buttons</a></li>
-                                    <li><a href="badges.html">Badges</a></li>
-                                    <li><a href="carousel.html">Carousels</a></li>
-                                    <li><a href="lists.html">Lists</a></li>
-                                    <li><a href="popover.html">Popover</a></li>
-                                    <li><a href="tables.html">Tables</a></li>
-                                    <li><a href="datatables.html">Datatables</a></li>
-                                    <li><a href="modals.html">Modals</a></li>
-                                    <li><a href="nouislider.html">Sliders</a></li>
-                                    <li><a href="tabs.html">Tabs</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!--REMOVED THE MEGA MENU HERE-->
                 <!-- / Mega menu -->
                 <div class="search-bar">
                     <input type="text" placeholder="Search">
@@ -176,6 +135,30 @@
         <div class="side-content-wrap">
             <div class="sidebar-left open rtl-ps-none" data-perfect-scrollbar="" data-suppress-scroll-x="true">
                 <ul class="navigation-left">
+                    <li class="nav-item" ><a class="nav-item-hold" href="#"><i class="nav-icon i-Bar-Chart"></i><span class="nav-text">Treatment Plan</span></a>
+                        <div class="triangle"></div>
+                    </li>
+                    <li class="nav-item"><a class="nav-item-hold" href="#"><i class="nav-icon i-Bar-Chart"></i><span class="nav-text">Treatment History</span></a>
+                        <div class="triangle"></div>
+                    </li>
+                    <li class="nav-item" "><a class="nav-item-hold" href="#"><i class="nav-icon i-Administrator"></i><span class="nav-text">Patient Info</span></a>
+                        <div class="triangle"></div>
+                    </li>
+                    <li class="nav-item" ><a class="nav-item-hold" href="#"><i class="nav-icon i-Bar-Chart"></i><span class="nav-text">Tele-Doctor</span></a>
+                        <div class="triangle"></div>
+                    </li>
+                    <li class="nav-item" ><a class="nav-item-hold" href="#"><i class="nav-icon i-Bar-Chart"></i><span class="nav-text">Doctor Login</span></a>
+                        <div class="triangle"></div>
+                    </li>
+                    <li class="nav-item" ><a class="nav-item-hold" href="#"><i class="nav-icon i-Bar-Chart"></i><span class="nav-text">Manual</span></a>
+                        <div class="triangle"></div>
+                    </li>
+                    <li class="nav-item" ><a class="nav-item-hold" href="#"><i class="nav-icon i-Bar-Chart"></i><span class="nav-text">Feedback</span></a>
+                        <div class="triangle"></div>
+                    </li>
+                    <li class="nav-item" ><a class="nav-item-hold" href="#"><i class="nav-icon i-Bar-Chart"></i><span class="nav-text">Settings</span></a>
+                        <div class="triangle"></div>
+                    </li>
                     <li class="nav-item" data-item="dashboard"><a class="nav-item-hold" href="#"><i class="nav-icon i-Bar-Chart"></i><span class="nav-text">Dashboard</span></a>
                         <div class="triangle"></div>
                     </li>
@@ -306,10 +289,9 @@
             <!-- ============ Body content start ============= -->
             <div class="main-content">
                 <div class="breadcrumb">
-                    <h1 class="mr-2">Version 1</h1>
+                    <h1 class="mr-2">ArdenVent Control Panel</h1>
                     <ul>
-                        <li><a href="">Dashboard</a></li>
-                        <li>Version 1</li>
+                        <li><a href="">Andre Ogueh Udegbe(Patient Name)</a></li>
                     </ul>
                 </div>
                 <div class="separator-breadcrumb border-top"></div>
