@@ -9,7 +9,7 @@ $(document).ready(function() {
                 borderRadius: 0,
                 orient: 'horizontal',
                 x: 'right',
-                data: ['Online', 'Offline']
+                data: ['Pressure', 'Flow', 'Volume']
             },
             grid: {
                 left: '8px',
@@ -23,7 +23,7 @@ $(document).ready(function() {
             },
             xAxis: [{
                 type: 'category',
-                data: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'],
+                data: ['12am', '1am', '2am', '3am', '4am', '5am', '6am', '7am', '8am', '9am', '10am', '11am'],
                 axisTick: {
                     alignWithLabel: true
                 },
@@ -37,11 +37,11 @@ $(document).ready(function() {
             yAxis: [{
                     type: 'value',
                     axisLabel: {
-                        formatter: '${value}'
+                        formatter: '{value}'
                     },
                     min: 0,
-                    max: 100000,
-                    interval: 25000,
+                    max: 10000,
+                    interval: 2500,
                     axisLine: {
                         show: false
                     },
@@ -54,8 +54,8 @@ $(document).ready(function() {
             ],
 
             series: [{
-                    name: 'Online',
-                    data: [35000, 69000, 22500, 60000, 50000, 50000, 30000, 80000, 70000, 60000, 20000, 30005],
+                    name: 'Pressure',
+                    data: [3500, 6900, 2250, 6000, 5000, 5000, 3000, 8000, 7000, 6000, 2000, 3005],
                     label: { show: false, color: '#0168c1' },
                     type: 'bar',
                     barGap: 0,
@@ -71,8 +71,8 @@ $(document).ready(function() {
                     }
                 },
                 {
-                    name: 'Offline',
-                    data: [45000, 82000, 35000, 93000, 71000, 89000, 49000, 91000, 80200, 86000, 35000, 40050],
+                    name: 'Flow',
+                    data: [4500, 8200, 3500, 9300, 7000, 8000, 4900, 9100, 8020, 8600, 3500, 4050],
                     label: { show: false, color: '#639' },
                     type: 'bar',
                     color: '#7569b3',
