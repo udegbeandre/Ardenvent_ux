@@ -141,7 +141,7 @@
                     <li class="nav-item"><a class="nav-item-hold" href="#"><i class="nav-icon i-Bar-Chart"></i><span class="nav-text">Treatment History</span></a>
                         <div class="triangle"></div>
                     </li>
-                    <li class="nav-item" "><a class="nav-item-hold" href="#"><i class="nav-icon i-Administrator"></i><span class="nav-text">Patient Info</span></a>
+                    <li class="nav-item active"><a class="nav-item-hold" href="#"><i class="nav-icon i-Administrator"></i><span class="nav-text">Patient Info</span></a>
                         <div class="triangle"></div>
                     </li>
                     <li class="nav-item" ><a class="nav-item-hold" href="#"><i class="nav-icon i-Bar-Chart"></i><span class="nav-text">Tele-Doctor</span></a>
@@ -157,39 +157,6 @@
                         <div class="triangle"></div>
                     </li>
                     <li class="nav-item" ><a class="nav-item-hold" href="#"><i class="nav-icon i-Gear"></i><span class="nav-text">Settings</span></a>
-                        <div class="triangle"></div>
-                    </li>
-                    <li class="nav-item" data-item="dashboard"><a class="nav-item-hold" href="#"><i class="nav-icon i-Bar-Chart"></i><span class="nav-text">Dashboard</span></a>
-                        <div class="triangle"></div>
-                    </li>
-                    <li class="nav-item" data-item="uikits"><a class="nav-item-hold" href="#"><i class="nav-icon i-Library"></i><span class="nav-text">UI kits</span></a>
-                        <div class="triangle"></div>
-                    </li>
-                    <li class="nav-item" data-item="extrakits"><a class="nav-item-hold" href="#"><i class="nav-icon i-Suitcase"></i><span class="nav-text">Extra kits</span></a>
-                        <div class="triangle"></div>
-                    </li>
-                    <li class="nav-item" data-item="apps"><a class="nav-item-hold" href="#"><i class="nav-icon i-Computer-Secure"></i><span class="nav-text">Apps</span></a>
-                        <div class="triangle"></div>
-                    </li>
-                    <li class="nav-item" data-item="widgets"><a class="nav-item-hold" href="#"><i class="nav-icon i-Computer-Secure"></i><span class="nav-text">Widgets</span></a>
-                        <div class="triangle"></div>
-                    </li>
-                    <li class="nav-item" data-item="charts"><a class="nav-item-hold" href="#"><i class="nav-icon i-File-Clipboard-File--Text"></i><span class="nav-text">Charts</span></a>
-                        <div class="triangle"></div>
-                    </li>
-                    <li class="nav-item" data-item="forms"><a class="nav-item-hold" href="#"><i class="nav-icon i-File-Clipboard-File--Text"></i><span class="nav-text">Forms</span></a>
-                        <div class="triangle"></div>
-                    </li>
-                    <li class="nav-item"><a class="nav-item-hold" href="datatables.html"><i class="nav-icon i-File-Horizontal-Text"></i><span class="nav-text">Datatables</span></a>
-                        <div class="triangle"></div>
-                    </li>
-                    <li class="nav-item" data-item="sessions"><a class="nav-item-hold" href="#"><i class="nav-icon i-Administrator"></i><span class="nav-text">Sessions</span></a>
-                        <div class="triangle"></div>
-                    </li>
-                    <li class="nav-item active" data-item="others"><a class="nav-item-hold" href="#"><i class="nav-icon i-Double-Tap"></i><span class="nav-text">Others</span></a>
-                        <div class="triangle"></div>
-                    </li>
-                    <li class="nav-item"><a class="nav-item-hold" href="http://demos.ui-lib.com/gull-html-doc/" target="_blank"><i class="nav-icon i-Safe-Box1"></i><span class="nav-text">Doc</span></a>
                         <div class="triangle"></div>
                     </li>
                 </ul>
@@ -292,11 +259,13 @@
                     <h1 class="mr-2">ArdenVent Control Panel</h1>
                     <ul>
                         <li><a href="">Andre Ogueh Udegbe(Patient Name)</a></li>
+                        <li class="pull-right"><button class="btn btn-outline-primary mt-3 mb-3 m-sm-0 btn-rounded btn-sm">
+                            Delete Patient
+                        </button></li>
                     </ul>
                 </div>
                 <div class="separator-breadcrumb border-top"></div>
-                <div class="row">
-                    <!-- ICON BG-->
+                <!-- <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
                             <div class="card-body text-center"><i class="i-Add-User"></i>
@@ -336,6 +305,45 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div> -->
+                <div class="row card mb-4" id="about">
+                    <div class="card-body">
+                    <h4>Patient Information</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, commodi quam! Provident quis voluptate asperiores ullam, quidem odio pariatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, nulla eos?
+                        Cum non ex voluptate corporis id asperiores doloribus dignissimos blanditiis iusto qui repellendus deleniti aliquam, vel quae eligendi explicabo.
+                    </p>
+                    <hr />
+                    <div class="row">
+                        <div class="col-md-4 col-6">
+                            <div class="mb-4">
+                                <p class="text-primary mb-1"><i class="i-Info text-16 mr-1"></i> Patient ID</p><span>23456</span>
+                            </div>
+                            <div class="mb-4">
+                                <p class="text-primary mb-1"><i class="i-Calendar text-16 mr-1"></i> Birth Date</p><span>1 Jan, 1994</span>
+                            </div>
+                            <div class="mb-4">
+                                <p class="text-primary mb-1"><i class="i-Globe text-16 mr-1"></i> Address</p><span>New York, NY</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-6">
+                            <div class="mb-4">
+                                <p class="text-primary mb-1"><i class="i-MaleFemale text-16 mr-1"></i> Gender</p><span>Male</span>
+                            </div>
+                            <div class="mb-4">
+                                <p class="text-primary mb-1"><i class="i-MaleFemale text-16 mr-1"></i> Height</p><span>175 cm</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-6">
+                            <div class="mb-4">
+                                <p class="text-primary mb-1"><i class="i-Face-Style-4 text-16 mr-1"></i> Age</p><span>26 y/o</span>
+                            </div>
+                            <div class="mb-4">
+                                <p class="text-primary mb-1"><i class="i-Professor text-16 mr-1"></i> Weight</p><span>78 kg</span>
+                            </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
                 <div class="row">
